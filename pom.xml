@@ -37,8 +37,6 @@
 							<artifactId>mysql-connector-java-8.0.16</artifactId>
 						</sharedLibrary>
 					</sharedLibraries>
-					
-					
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${muleVersion}</muleVersion>
@@ -54,9 +52,6 @@
 							<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
 						</properties>
 					</cloudHubDeployment>
-					
-					
-					
 				</configuration>
 			</plugin>
 		</plugins>
@@ -79,12 +74,6 @@
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-apikit-module</artifactId>
 			<version>1.5.8</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.mule.connectors</groupId>
-			<artifactId>mule-db-connector</artifactId>
-			<version>1.12.0</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
