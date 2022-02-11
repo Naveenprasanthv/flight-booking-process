@@ -1,4 +1,13 @@
 http:
   port: "8081"
-  host: "localhost"
+  
+mysql:
+  host: "sql6.freemysqlhosting.net"
+  db: "sql6471765"
+  user: "sql6471765"
+  pass: "QkZ4LRCCxc"
+  port: "3306"
+
+request:
+  port: flight-booking-sys-api-lolkow.us-e2.cloudhub.io
   
